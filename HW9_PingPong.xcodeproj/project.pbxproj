@@ -14,6 +14,7 @@
 		657C063D274CBCF300EDB30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657C063C274CBCF300EDB30E /* Assets.xcassets */; };
 		657C0640274CBCF300EDB30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657C063E274CBCF300EDB30E /* LaunchScreen.storyboard */; };
 		658A5EC5274CCF7D00CCC301 /* ScoreRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A5EC4274CCF7D00CCC301 /* ScoreRecord.swift */; };
+		658A5EC7274E596600CCC301 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A5EC6274E596600CCC301 /* Record.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		657C063F274CBCF300EDB30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		657C0641274CBCF300EDB30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		658A5EC4274CCF7D00CCC301 /* ScoreRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRecord.swift; sourceTree = "<group>"; };
+		658A5EC6274E596600CCC301 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		657C0627274CBCED00EDB30E = {
 			isa = PBXGroup;
 			children = (
+				658A5EC6274E596600CCC301 /* Record.swift */,
 				658A5EC4274CCF7D00CCC301 /* ScoreRecord.swift */,
 				657C0632274CBCEE00EDB30E /* HW9_PingPong */,
 				657C0631274CBCEE00EDB30E /* Products */,
@@ -143,6 +146,7 @@
 			files = (
 				657C0638274CBCEE00EDB30E /* ViewController.swift in Sources */,
 				657C0634274CBCEE00EDB30E /* AppDelegate.swift in Sources */,
+				658A5EC7274E596600CCC301 /* Record.swift in Sources */,
 				657C0636274CBCEE00EDB30E /* SceneDelegate.swift in Sources */,
 				658A5EC5274CCF7D00CCC301 /* ScoreRecord.swift in Sources */,
 			);

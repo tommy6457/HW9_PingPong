@@ -23,15 +23,4 @@ struct ScoreRecord {
     
 }
 
-struct Record {
-    
-    var leftPlayer: ScoreRecord
-    var rightPlayer: ScoreRecord
-    var duce: Bool
-    var darkMode: Bool
-    var serveScore = 0
-    
-    
-}
-
 
