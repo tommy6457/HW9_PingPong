@@ -110,9 +110,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfb-Xi-Nfg">
-                                <rect key="frame" x="602" y="20" width="44" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfb-Xi-Nfg">
+                                <rect key="frame" x="603.5" y="20" width="43.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="moon.fill" catalog="system"/>
                                 <connections>
@@ -123,8 +122,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hfb-Xi-Nfg" secondAttribute="trailing" constant="20" id="2GE-4s-a3k"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JKl-h6-IdU" secondAttribute="bottom" constant="85" id="3HS-3E-q6O"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JAB-RW-dPl" secondAttribute="trailing" constant="50" id="9aH-7k-ldd"/>
+                            <constraint firstItem="Hfb-Xi-Nfg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="AmS-5g-NK4"/>
                             <constraint firstItem="JKl-h6-IdU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DmJ-N2-Jyh"/>
                             <constraint firstItem="DVa-5C-JQz" firstAttribute="centerX" secondItem="JAB-RW-dPl" secondAttribute="centerX" id="Eda-dH-vc0"/>
                             <constraint firstItem="ahv-EI-RM6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OQn-FW-2fJ"/>
